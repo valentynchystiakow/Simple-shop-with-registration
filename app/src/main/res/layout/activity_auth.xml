@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2a600"
+    android:orientation="vertical"
+    tools:context=".AuthActivity"
+    tools:ignore="ExtraText">
+    <!--    Main Title Text View Block-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Enter account"
+        android:textColor="#fdfdfd"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!--Login Text block-->
+    <EditText
+        android:id="@+id/user_login_auth"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_log"
+        android:inputType="text"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#78909C" />
+    />
+
+
+    <!--Password Text block-->
+    <EditText
+        android:id="@+id/user_pass_auth"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_pass"
+        android:inputType="textPassword"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#78909C" />
+    <!--Registration Button block-->
+    <Button
+        android:id="@+id/button_auth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#201e28"
+        android:text="Enter"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    <!--Creates Text view block for switching to registration-->
+    <TextView
+        android:id="@+id/link_to_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Registrate"
+        android:textColor="#fdfdfd"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
